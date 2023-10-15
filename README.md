@@ -16,9 +16,12 @@ $ pkg update && upgrade -y
 $ pkg install git -y
 $ git clone https://github.com/basic-hacker/Youtube-video-downloader
 $ cd Youtube-video-downloader
-
+```
 # Command to install dependencies
+```
 $ pip install -r requirements.txt
-
+```
 # Run the project
+```
 $youtube.py
+```
