@@ -11,6 +11,15 @@ except ImportError:
     os.system("pip install -r requirements.txt")
 
 # Rest of your code...
+# Function to clear the screen based on the operating system
+def clear_screen():
+    if platform.system() == 'Windows':
+        os.system('cls')
+    else:
+        os.system('clear')
+
+# Clear the screen
+clear_screen()
 
 # The ASCII art banner
 banner = """
