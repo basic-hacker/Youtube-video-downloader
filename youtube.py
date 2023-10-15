@@ -11,12 +11,9 @@ except ImportError:
     os.system("pip install -r requirements.txt")
 
 # Rest of your code...
-# Function to clear the screen based on the operating system
 def clear_screen():
-    if platform.system() == 'Windows':
-        os.system('cls')
-    else:
-        os.system('clear')
+    # Clear the screen based on ANSI escape codes
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 # Clear the screen
 clear_screen()
