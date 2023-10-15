@@ -1,5 +1,5 @@
 # Youtube-video-downloader
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
 
 ## Introduction
 This project is used to download youtube videos as audio file and high resolution too..
@@ -10,6 +10,7 @@ This project is used to download youtube videos as audio file and high resolutio
 To install this project in Termux, run the following commands:
 
 # Basic commands before installation
+```
 $ apt update && upgrade -y
 $ pkg update && upgrade -y
 $ pkg install git -y
