@@ -9,7 +9,6 @@ except ImportError:
     os.system("pip install -r requirements.txt")
 
 def clear_screen():
-    # Clear the screen based on ANSI escape codes
     os.system('cls' if os.name == 'nt' else 'clear')
 
 clear_screen()
