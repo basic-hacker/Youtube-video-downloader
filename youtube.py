@@ -1,18 +1,16 @@
 from pytube import YouTube
-import subprocess
 import shutil
+import os
 
-# Install the necessary libraries
+
+# Check if the required libraries are installed, if not, install them
 try:
-    subprocess.run(["pip", "install", "pytube"])
-except Exception as e:
-    print('An error occurred during library installation:', str(e))
+    import pytube
+except ImportError:
+    print("pytube not installed. Installing...")
+    os.system("pip install -r requirements.txt")
 
-# Rest of the script...
-
-# The rest of your script remains the same
-
-
+# Rest of your code...
 
 # The ASCII art banner
 banner = """
